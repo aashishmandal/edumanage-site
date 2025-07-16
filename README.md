@@ -13,7 +13,7 @@ EduManage reads the following file on launch:
 
 📄 [version.json](https://aashishmandal.github.io/edumanage-site/version.json)
 
-### Example structure:
+## Example structure:
 `
 ```json
 {
@@ -28,7 +28,7 @@ Change "latest_version" to your new release tag
 Update "download_url" to point to the new installer
 Commit the change — GitHub Pages will serve it instantly
 
-##🔐 Note
+## 🔐 Note
 
 This repo does not contain application code. To view or download EduManage, visit the main repo:
 👉 https://github.com/aashishmandal/EduManage
