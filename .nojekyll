@@ -1,3 +1,0 @@
-cd edumanage-site
-rm -rf _config.yml Gemfile *.md _layouts _includes
-touch .nojekyll
