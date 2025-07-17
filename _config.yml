@@ -1,0 +1,6 @@
+title: EduManage
+theme: just-the-docs
+permalink: /:path/
+
+just_the_docs:
+  search_enabled: true
