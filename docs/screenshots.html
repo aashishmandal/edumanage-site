@@ -1,25 +1,96 @@
----
 <!DOCTYPE html>
 <html lang="en">
-<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Features – EduManage</title>
-  <link rel="stylesheet" href="assets/css/style.css">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Screenshots – EduManage</title>
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  />
+  <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="assets/css/style.css" />
 </head>
-<body>
-  <!-- same header/nav as index.html -->
-  <header class="hero">
-    <h1>Features</h1>
+<body class="d-flex flex-column min-vh-100">
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="index.html">EduManage</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mainNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="features.html">Features</a></li>
+          <li class="nav-item"><a class="nav-link active" href="screenshots.html">Screenshots</a></li>
+          <li class="nav-item"><a class="nav-link" href="download.html">Download</a></li>
+          <li class="nav-item"><a class="nav-link" href="docs.html">Docs</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Header -->
+  <header class="bg-primary text-white text-center py-5">
+    <div class="container">
+      <h1 class="display-5 fw-bold">Screenshots</h1>
+      <p class="lead">A glimpse into EduManage’s clean and intuitive interface.</p>
+    </div>
   </header>
-  <nav class="main-nav">…</nav>
-  <main>
-    <h2>Core Features</h2>
-    <ul>
-      <li>Student Management</li>
-      <li>Document Storage</li>
-      <li>PDF & CSV Reports</li>
-      <li>Role-Based Access</li>
-    </ul>
+
+  <!-- Gallery -->
+  <main class="container py-5">
+    <div class="row g-4">
+      <!-- Replace these with your actual screenshots -->
+      <div class="col-md-4">
+        <div class="card shadow-sm">
+          <img src="assets/images/screenshot1.png" class="card-img-top" alt="Dashboard Screenshot" />
+          <div class="card-body">
+            <h5 class="card-title">Dashboard</h5>
+            <p class="card-text">Overview of student stats, quick links, and system status.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card shadow-sm">
+          <img src="assets/images/screenshot2.png" class="card-img-top" alt="Student Management Screenshot" />
+          <div class="card-body">
+            <h5 class="card-title">Student Management</h5>
+            <p class="card-text">Add, update, and export student records with ease.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card shadow-sm">
+          <img src="assets/images/screenshot3.png" class="card-img-top" alt="Documents Screenshot" />
+          <div class="card-body">
+            <h5 class="card-title">Documents</h5>
+            <p class="card-text">Upload and manage student documents securely.</p>
+          </div>
+        </div>
+      </div>
+    </div>
   </main>
-  <footer>…</footer>
+
+  <!-- Footer -->
+  <footer class="mt-auto bg-white text-center text-muted py-4 border-top">
+    <div class="container">
+      <p class="mb-1">&copy; 2025 EduManage. All rights reserved.</p>
+      <small>
+        <a href="contact.html" class="text-decoration-none">Contact</a> |
+        <a href="docs.html" class="text-decoration-none">Documentation</a>
+      </small>
+    </div>
+  </footer>
+
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+  ></script>
 </body>
 </html>
