@@ -2,72 +2,127 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>EduManage - Simplify School Admin</title>
-  <link rel="stylesheet" href="assets/css/style.css"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>EduManage — Transforming school administration with simplicity and security</title>
+
+  <!-- Bootstrap 5 CSS -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  />
+
+  <!-- Bootstrap Icons -->
+  <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css"
+    rel="stylesheet"
+  />
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="assets/css/style.css" />
 </head>
-<body>
-  <header class="site-header">
+<body class="d-flex flex-column min-vh-100">
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
     <div class="container">
-      <a href="index.html" class="logo">EduManage</a>
-      <nav class="nav">
-        <a href="features.html">Features</a>
-        <a href="screenshots.html">Screenshots</a>
-        <a href="download.html" class="btn-primary">Download</a>
-        <a href="docs.html">Docs</a>
-        <a href="contact.html">Contact</a>
-      </nav>
+      <a class="navbar-brand fw-bold" href="index.html">EduManage</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#mainNav"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mainNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="features.html">Features</a></li>
+          <li class="nav-item"><a class="nav-link" href="screenshots.html">Screenshots</a></li>
+          <li class="nav-item"><a class="nav-link" href="download.html">Download</a></li>
+          <li class="nav-item"><a class="nav-link" href="docs.html">Docs</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="bg-primary text-white text-center py-5">
+    <div class="container">
+      <h1 class="display-4 fw-bold">EduManage</h1>
+      <p class="lead mb-4">
+        Transforming school administration with simplicity and security.
+      </p>
+      <a href="download.html" class="btn btn-light btn-lg">
+        <i class="bi bi-download me-2"></i>Download Now
+      </a>
     </div>
   </header>
 
-  <section class="hero">
+  <!-- Why EduManage -->
+  <section class="py-5">
     <div class="container">
-      <h1>Transform School Ops<br/>with Simplicity & Security</h1>
-      <p>EduManage brings intuitive, secure management to every school, big or small.</p>
-      <a href="download.html" class="btn-primary btn-large">Get Started</a>
-      <a href="docs.html" class="btn-secondary btn-large">Learn More</a>
-    </div>
-  </section>
-
-  <section class="teaser">
-    <div class="container grid">
-      <div class="card">
-        <h3>Student Management</h3>
-        <p>Organize student data, attendance, and reports with ease.</p>
-      </div>
-      <div class="card">
-        <h3>Document Hub</h3>
-        <p>Securely store certificates, transcripts, and more.</p>
-      </div>
-      <div class="card">
-        <h3>Export Reports</h3>
-        <p>One-click PDF/CSV exports for audits and meetings.</p>
-      </div>
-      <div class="card">
-        <h3>Role Control</h3>
-        <p>Define user roles and permissions for safety and clarity.</p>
+      <h2 class="text-center mb-5">Why Choose EduManage?</h2>
+      <div class="row g-4">
+        <div class="col-md-4 text-center">
+          <i class="bi bi-people-fill display-4 text-primary mb-3"></i>
+          <h4>User-Centric Design</h4>
+          <p>Intuitive interface so every staff member can get up to speed in minutes.</p>
+        </div>
+        <div class="col-md-4 text-center">
+          <i class="bi bi-lock-fill display-4 text-primary mb-3"></i>
+          <h4>Security First</h4>
+          <p>Role-based access, encryption, and auto-backups keep your data safe.</p>
+        </div>
+        <div class="col-md-4 text-center">
+          <i class="bi bi-file-earmark-bar-graph-fill display-4 text-primary mb-3"></i>
+          <h4>Powerful Reports</h4>
+          <p>One-click PDF & CSV exports for attendance, grades, finances, and more.</p>
+        </div>
       </div>
     </div>
   </section>
 
-  <footer class="site-footer">
-    <div class="container grid footer-grid">
-      <div>
-        <h4>EduManage</h4>
-        <p>© 2025 EduManage. All rights reserved.</p>
+  <!-- Quick Highlights -->
+  <section class="bg-light py-5">
+    <div class="container">
+      <h2 class="text-center mb-5">Core Highlights</h2>
+      <div class="row g-4">
+        <div class="col-sm-6 col-lg-3 text-center">
+          <i class="bi bi-journal-text display-4 text-secondary mb-3"></i>
+          <p>Full Student Lifecycle</p>
+        </div>
+        <div class="col-sm-6 col-lg-3 text-center">
+          <i class="bi bi-gear-fill display-4 text-secondary mb-3"></i>
+          <p>Customizable Settings</p>
+        </div>
+        <div class="col-sm-6 col-lg-3 text-center">
+          <i class="bi bi-cloud-arrow-up-fill display-4 text-secondary mb-3"></i>
+          <p>Offline & Cloud Sync</p>
+        </div>
+        <div class="col-sm-6 col-lg-3 text-center">
+          <i class="bi bi-people-fill display-4 text-secondary mb-3"></i>
+          <p>Multi-User Roles</p>
+        </div>
       </div>
-      <div>
-        <h4>Contact</h4>
-        <p>Email: support@edumanage.com</p>
-      </div>
-      <div>
-        <h4>Follow Us</h4>
-        <p>
-          <a href="#">Twitter</a> |
-          <a href="#">LinkedIn</a>
-        </p>
-      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="mt-auto bg-white text-center text-muted py-4 border-top">
+    <div class="container">
+      <p class="mb-1">&copy; 2025 EduManage. All rights reserved.</p>
+      <small>
+        <a href="contact.html" class="text-decoration-none">Contact</a> |
+        <a href="docs.html" class="text-decoration-none">Documentation</a>
+      </small>
     </div>
   </footer>
+
+  <!-- Bootstrap 5 JS Bundle -->
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+  ></script>
 </body>
 </html>
