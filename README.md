@@ -33,6 +33,6 @@ Commit the change — GitHub Pages will serve it instantly
 This repo does not contain application code. To view or download EduManage, visit the main repo:
 👉 https://github.com/aashishmandal/EduManage
 
-## 👤 Maintainer
+## 👤 Developer
 Aashish Mandal 📧 aashishmandalofficial@gmail.com
 
