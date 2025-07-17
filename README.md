@@ -14,7 +14,7 @@ EduManage reads the following file on launch:
 📄 [version.json](https://aashishmandal.github.io/edumanage-site/version.json)
 
 ## Example structure:
-`
+
 ```json
 {
   "latest_version": "1.1.0",
