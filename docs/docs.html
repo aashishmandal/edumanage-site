@@ -1,25 +1,104 @@
----
 <!DOCTYPE html>
 <html lang="en">
-<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Features – EduManage</title>
-  <link rel="stylesheet" href="assets/css/style.css">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Documentation – EduManage</title>
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  />
+  <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="assets/css/style.css" />
 </head>
-<body>
-  <!-- same header/nav as index.html -->
-  <header class="hero">
-    <h1>Features</h1>
+<body class="d-flex flex-column min-vh-100">
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="index.html">EduManage</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mainNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="features.html">Features</a></li>
+          <li class="nav-item"><a class="nav-link" href="screenshots.html">Screenshots</a></li>
+          <li class="nav-item"><a class="nav-link" href="download.html">Download</a></li>
+          <li class="nav-item"><a class="nav-link active" href="docs.html">Docs</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Header -->
+  <header class="bg-primary text-white text-center py-5">
+    <div class="container">
+      <h1 class="display-5 fw-bold">Documentation</h1>
+      <p class="lead">Step-by-step guide to install, configure, and use EduManage.</p>
+    </div>
   </header>
-  <nav class="main-nav">…</nav>
-  <main>
-    <h2>Core Features</h2>
-    <ul>
-      <li>Student Management</li>
-      <li>Document Storage</li>
-      <li>PDF & CSV Reports</li>
-      <li>Role-Based Access</li>
-    </ul>
+
+  <!-- Docs Content -->
+  <main class="container py-5">
+    <div class="row">
+      <div class="col-lg-8 mx-auto">
+        <h3 class="mb-4"><i class="bi bi-box-arrow-in-down me-2"></i>Installation</h3>
+        <ul>
+          <li>Download the latest version from the <a href="download.html">Download</a> page.</li>
+          <li>Extract the ZIP file (if applicable).</li>
+          <li>Double-click the EduManage executable to launch the app.</li>
+        </ul>
+
+        <h3 class="mt-5 mb-4"><i class="bi bi-gear me-2"></i>Configuration</h3>
+        <ul>
+          <li>Set your school name and logo in the Settings tab.</li>
+          <li>Assign roles to users: Viewer, Editor, Admin.</li>
+          <li>Enable Test Mode for safe testing without saving data.</li>
+        </ul>
+
+        <h3 class="mt-5 mb-4"><i class="bi bi-journal-text me-2"></i>Modules</h3>
+        <ul>
+          <li><strong>Students:</strong> Add, update, delete, and export student records.</li>
+          <li><strong>Documents:</strong> Upload and manage student files securely.</li>
+          <li><strong>Reports:</strong> Generate PDF/CSV exports for selected students.</li>
+          <li><strong>History:</strong> View attendance and payment logs.</li>
+        </ul>
+
+        <h3 class="mt-5 mb-4"><i class="bi bi-shield-lock me-2"></i>Security</h3>
+        <ul>
+          <li>Role-based access ensures only authorized users can modify data.</li>
+          <li>Test Mode prevents accidental changes during training or demos.</li>
+          <li>All data is stored locally in a secure SQLite database.</li>
+        </ul>
+
+        <h3 class="mt-5 mb-4"><i class="bi bi-cloud-arrow-up me-2"></i>Backup & Restore</h3>
+        <ul>
+          <li>Use the Backup tab to export your database safely.</li>
+          <li>Restore from a previous backup if needed.</li>
+        </ul>
+      </div>
+    </div>
   </main>
-  <footer>…</footer>
+
+  <!-- Footer -->
+  <footer class="mt-auto bg-white text-center text-muted py-4 border-top">
+    <div class="container">
+      <p class="mb-1">&copy; 2025 EduManage. All rights reserved.</p>
+      <small>
+        <a href="contact.html" class="text-decoration-none">Contact</a> |
+        <a href="docs.html" class="text-decoration-none">Documentation</a>
+      </small>
+    </div>
+  </footer>
+
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+  ></script>
 </body>
 </html>
